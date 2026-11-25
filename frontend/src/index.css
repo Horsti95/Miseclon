@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --mise-bg: #faf8f5;
+    --mise-card: #ffffff;
+    --mise-border: #e8e2d9;
+    --mise-sage: #2d5a45;
+    --mise-sage-light: #ebf3ee;
+    --mise-terra: #c86442;
+    --mise-protein: #2f6690;
+    --mise-carbs: #c78623;
+    --mise-fat: #8b5a7c;
+  }
+
+  body {
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    background-color: var(--mise-bg);
+    color: #1e2421;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d9d1c5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bfb4a4;
+}

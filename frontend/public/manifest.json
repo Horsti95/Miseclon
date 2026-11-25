@@ -1,0 +1,9 @@
+{
+  "name": "Miseclon Meal-Planner",
+  "short_name": "Miseclon",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F5",
+  "theme_color": "#2D5A45",
+  "description": "Lokaler Meal-Planner mit Makros, Koch-Einfachheit und ALDI-Einkaufsliste"
+}
